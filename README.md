@@ -2,6 +2,12 @@
 
 Proyecto end-to-end de Machine Learning para predecir churn de clientes de telecomunicaciones. Incluye EDA, preprocesamiento, comparacion de modelos, interpretabilidad y una app interactiva en Streamlit.
 
+## Demo
+
+App desplegada en Streamlit Community Cloud:
+
+[https://churn-risk-ml-app-anderherrera.streamlit.app/](https://churn-risk-ml-app-anderherrera.streamlit.app/)
+
 ## Objetivo
 
 Predecir la probabilidad de que un cliente cancele el servicio, usando variables demograficas, servicios contratados, tipo de contrato, metodo de pago y cargos mensuales/totales.
@@ -19,22 +25,22 @@ El dataset contiene 7,043 clientes y variables como `tenure`, `Contract`, `Inter
 
 ```text
 .
-├── app/
-│   └── streamlit_app.py
-├── data/
-│   └── README.md
-├── models/
-├── notebooks/
-│   └── 01_eda_modeling_guide.ipynb
-├── reports/
-├── src/
-│   ├── config.py
-│   ├── data_loader.py
-│   ├── eda.py
-│   ├── predict.py
-│   └── train.py
-├── requirements.txt
-└── README.md
+|-- app/
+|   `-- streamlit_app.py
+|-- data/
+|   `-- README.md
+|-- models/
+|-- notebooks/
+|   `-- 01_eda_modeling_guide.ipynb
+|-- reports/
+|-- src/
+|   |-- config.py
+|   |-- data_loader.py
+|   |-- eda.py
+|   |-- predict.py
+|   `-- train.py
+|-- requirements.txt
+`-- README.md
 ```
 
 ## Como Ejecutarlo
