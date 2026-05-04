@@ -7,7 +7,6 @@ data/*.csv
 data/*.xlsx
 !data/README.md
 
-models/*.joblib
 reports/*.png
 reports/*.csv
 reports/*.json
